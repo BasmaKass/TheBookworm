@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".bibliotheque">
+
+    <Button
+        android:id="@+id/Retour"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="334dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="118dp"
+        android:gravity="center"
+        android:text="@string/ma_bibli"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listelivres"
+        android:layout_width="394dp"
+        android:layout_height="414dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/supp"
+        android:layout_width="121dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/supprimer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="179dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="632dp"
+        android:text="@string/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

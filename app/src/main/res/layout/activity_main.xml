@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:text="@string/bienvenue_dans_votre_biblioth_que_priv_e"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="217dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="484dp"
+        android:gravity="center"
+        android:text="@string/parcourir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="217dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="388dp"
+        android:gravity="center"
+        android:text="@string/ma_biblioth_que"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="217dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="296dp"
+        android:gravity="center"
+        android:text="@string/mes_livres"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Mes livres" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="197dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="90dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/books" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
